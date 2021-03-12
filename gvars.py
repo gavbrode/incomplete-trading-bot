@@ -7,7 +7,7 @@
 from pathlib import Path
 from datetime import datetime
 
-MAX_WORKERS = 10 # max threads at a time
+MAX_WORKERS = 20 # max threads at a time
 
 gainRatio = 1.5 # takeProfit = -stopLoss*gainRatio
 stopLossMargin = 0.05 # extra margin for the stop loss
@@ -37,8 +37,8 @@ maxAttempts = {
 
 # limit for the indicators
 limStoch = {
-            'maxBuy':75, # max allowed value to buy
-            'minSell':25  # min allowed value to sell
+            'maxBuy':50, # max allowed value to buy
+            'minSell':0.5  # min allowed value to sell
             }
 
 ################################################################ TIMEFRAMES ->
