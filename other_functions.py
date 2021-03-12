@@ -14,7 +14,7 @@ import numpy as np
 import gvars
 import requests
 from bs4 import BeautifulSoup
-import newtulipy as ti
+import tulipy as ti
 
 def block_thread(logger=False,exception=False,thName='',assName=''):
     # this function will lock the thread visually, in case a fatal error happened
